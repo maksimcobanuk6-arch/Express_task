@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{aa9a24f9-34b3-4ddd-a221-8c3b80f78e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{dff52c4f-4a5d-4da7-803d-142ae3832503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{28c8a725-383c-4376-8897-9ec220cf952c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Strategy.cpp">
@@ -24,17 +33,17 @@
     <ClCompile Include="Observer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="model.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Vievw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Controller.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="Vievw.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,13 +57,13 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="model.h">
-      <Filter>Header Files</Filter>
+      <Filter>model</Filter>
     </ClInclude>
     <ClInclude Include="View.h">
-      <Filter>Header Files</Filter>
+      <Filter>View</Filter>
     </ClInclude>
     <ClInclude Include="Controller.h">
-      <Filter>Header Files</Filter>
+      <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
